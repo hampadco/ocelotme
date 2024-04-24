@@ -1,0 +1,24 @@
+{
+    
+    "Routes": [
+        {
+           
+           
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5034
+                }
+            ],
+            "UpstreamPathTemplate": "/api/login",
+            "UpstreamHttpMethod": ["Post"]
+            
+        }
+       
+    ]
+
+  
+   
+
+}
